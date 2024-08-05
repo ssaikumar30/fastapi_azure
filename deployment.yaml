@@ -18,7 +18,7 @@ spec:
         - name: acr-secret
       containers:
         - name: fastapi-container
-          image: myfastapiregistry.azurecr.io/fastapi:V2.1
+          image: myfastapiregistry.azurecr.io/fastapi:V4.1
           ports:
             - containerPort: 80
 
